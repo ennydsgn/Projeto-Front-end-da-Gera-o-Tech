@@ -2,7 +2,7 @@
 
 <h1> 🚀 E-commerce Responsivo - Geração Tech</h1>
 
-### Projeto Front end da Geração Tech | [View](https://letticiamoura.github.io/ecommerce-front/) ↗
+### Projeto Front end da Geração Tech | [View](https://ennyasilveira.github.io/ecommerce-front/) ↗
 
 <img src="https://github.com/user-attachments/assets/076e4023-8758-45fa-882b-60838350c595" alt="Imagem 1" style="margin-right: 10px;" />
 
@@ -28,7 +28,7 @@
 ##### Clonar o repositório
 
 ```
-git clone https://github.com/letticiamoura/ecommerce-front.git
+git clone https://github.com/ennydsgn/Projeto-Front-end-da-Gera-o-Tech.git
 ```
 
 ##### Entrar na pasta
