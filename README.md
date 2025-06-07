@@ -66,6 +66,13 @@ npm dev run
       <a href="https://www.linkedin.com/in/leticia-moura-2157891a6/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Linkedin-0b7cb0?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
     </td>
     <td align="center" width="50%">
+      <img width="30%" src="https://github.com/user-attachments/assets/1d66a974-3068-45dd-b180-5f30a49306af"/><br>
+      <strong>Ennya Silveira </strong><br>
+      <br/>
+      <a href="https://github.com/ennydsgn" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+      <a href="https://www.linkedin.com/in/ennya-silveira-0a851a178/" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Linkedin-0b7cb0?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    </td>
+    <td align="center" width="50%">
       <img width="30%" src="https://github.com/user-attachments/assets/6dee6180-cffb-440d-b535-02eed04c6071"/><br>
       <strong>Thaina Moreira Ludgero</strong><br>
       <br />
