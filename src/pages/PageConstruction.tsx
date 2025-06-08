@@ -1,32 +1,38 @@
 import { useNavigate } from "react-router-dom";
-import page from "../assets/page-gray.gif";
-import Layout from "./Layout";
 import { useEffect } from "react";
+import Layout from "./Layout";
+import page from "../assets/page-gray.gif";
 
 export default function PageInConstruction() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
-    const handleRedirect = () => {
-        window.scrollTo(0, 0);
-        navigate("/");
-    };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
+  const handleRedirect = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    navigate("/");
+  };
 
-    return (
-        <Layout>
-            <div className="py-16 md:py-0 md:pb-10 pb-10 flex flex-col justify-center items-center">
-                <h1 className="text-center text-2xl py-10 md:text-3xl font-extrabold text-primary">⚠ Pagina em construção ⚠</h1>
-                <img src={page} alt="Page not found" className="object-contain lg:w-[30vw]" />
-                <button 
-                    onClick={handleRedirect}
-                    className="p-2 w-36 border bg-primary rounded-md text-light-gray-3 hover:scale-110 hover:bg-error hover:cursor-pointer hover:transition-colors text-center"
-                >
-                    Voltar
-                </button>
-            </div>
-        </Layout>
-    );
+  return (
+    <Layout>
+      <section className="min-h-screen flex flex-col justify-center items-center px-4 text-center">
+        <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6 animate-pulse">
+          ⚠ Página em construção ⚠
+        </h1>
+        <img
+          src={page}
+          alt="Página em construção"
+          className="w-full max-w-md mb-8 drop-shadow-md"
+        />
+        <button
+          onClick={handleRedirect}
+          className="px-6 py-3 bg-primary text-light-gray-3 rounded-lg font-semibold transition-all hover:bg-error hover:scale-105 focus:outline-none focus:ring-2 focus:ring-error"
+        >
+          Voltar para a Home
+        </button>
+      </section>
+    </Layout>
+  );
 }
