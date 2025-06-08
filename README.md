@@ -54,7 +54,7 @@ npm dev run
 
 > [documentação do projeto Digital Store](https://github.com/digitalcollegebr/projeto-digital-store). ↗
 
-> Desenvolvedora 👩‍💻
+> Desenvolvedora/UXUI Designer 👩‍💻
 
 <table>
   <tr>
