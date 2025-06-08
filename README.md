@@ -59,7 +59,7 @@ npm dev run
 <table>
   <tr>
     <td align="center" width="50%">
-      <img width="30%" src="https://github.com/user-attachments/assets/1d66a974-3068-45dd-b180-5f30a49306af"/><br>
+      <img width="30%" src="file:///C:/Users/ennya/Downloads/octocat-1749352441378.png"/><br>
       <strong>Ennya Silveira </strong><br>
       <br/>
       <a href="https://github.com/ennydsgn" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
